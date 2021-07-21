@@ -1,1 +1,1 @@
-# Trassir-Web-Selenium
+# Selenium autotests of Trassir web interface on python
