@@ -1,0 +1,31 @@
+from selenium.webdriver.common.by import By
+
+class LoginPageLocators():
+    LOGIN_FORM = (By.CSS_SELECTOR, ".container-fluid")
+    LOGIN_USERNAME = (By.CSS_SELECTOR, "#login-username")
+    LOGIN_PASSWORD = (By.CSS_SELECTOR, "#login-dialog > div > form > div:nth-child(4) > div > div > input")
+    LANGUAGES_LIST = (By.CSS_SELECTOR, "#login-dialog-language-selector-button")
+    LANGUAGES_LIST_TEXT = (By.CSS_SELECTOR, "#login-dialog-language-selector-button > span:nth-child(2)")
+    ENGLISH_LANGUAGE = (By.CSS_SELECTOR, "#login-dialog-language-selector > div > div > ul > li:nth-child(1) > a")
+    FRENCH_LANGUAGE = (By.CSS_SELECTOR, "#login-dialog-language-selector > div > div > ul > li:nth-child(2) > a")
+    GEORGIAN_LANGUAGE = (By.CSS_SELECTOR, "#login-dialog-language-selector > div > div > ul > li:nth-child(3) > a")
+    RUSSIAN_LANGUAGE = (By.CSS_SELECTOR, "#login-dialog-language-selector > div > div > ul > li:nth-child(4) > a")
+    TURKISH_LANGUAGE = (By.CSS_SELECTOR, "#login-dialog-language-selector > div > div > ul > li:nth-child(5) > a")
+    UKRAINIAN_LANGUAGE = (By.CSS_SELECTOR, "#login-dialog-language-selector > div > div > ul > li:nth-child(6) > a")
+    CHINESE_SIMPLIFIELD = (By.CSS_SELECTOR, "#login-dialog-language-selector > div > div > ul > li:nth-child(7) > a")
+    CHINESE_TRADITIONAL = (By.CSS_SELECTOR, "#login-dialog-language-selector > div > div > ul > li:nth-child(8) > a")
+    LOGIN_BUTTON = (By.CSS_SELECTOR, "#login-dialog > div > form > div:nth-child(9) > div > button")
+    INTERNAL_SERVER_ERROR = (By.CSS_SELECTOR, "#login-dialog > div > form > div.rh-div.state_error > span")
+
+class TrassirWebguiPageLocators():
+    SETTINGS = (By.CSS_SELECTOR, "#top-panel > div:nth-child(2) > div")
+    TEMPLATE_1 = (By.CSS_SELECTOR, "#top-panel > div:nth-child(4) > div")
+    TEMPLATE_4 = (By.CSS_SELECTOR, "#top-panel > div:nth-child(5) > div")
+    TEMPLATE_9 = (By.CSS_SELECTOR, "#top-panel > div:nth-child(6) > div")
+    TEMPLATE_16 = (By.CSS_SELECTOR, "#top-panel > div:nth-child(7) > div")
+    TEMPLATE_25 = (By.CSS_SELECTOR, "#top-panel > div:nth-child(8) > div")
+    QUICKSEARCH = (By.CSS_SELECTOR, "#top-panel > div.qs.right > input")
+    CURRENT_USER = (By.CSS_SELECTOR, "#top-panel > div.username.right")
+    LOGOUT_BUTTON = (By.CSS_SELECTOR, "#top-panel > div.logout.right > div")
+    FIRST_CHANNEL = (By.CSS_SELECTOR, "#cld-channels-channels-group > div:nth-child(1)")
+    FIRST_LOST_CHANNEL = (By.CSS_SELECTOR, "#cld-channels > div:nth-child(2) > div.content > div:nth-child(1) > div > div")
